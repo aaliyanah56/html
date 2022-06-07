@@ -1,0 +1,155 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body{
+            background-color:#eceff5;
+            color: black;
+            font-size: 25px;}
+        
+.dark.mode {
+          background-color: black;
+          color: white;
+}
+        
+
+h1{
+            color: rgb(251, 9, 9);
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(93, 245, 169);
+}
+
+.active {
+  background-color: #04AA6D;}
+        .footer{
+            color: aliceblue;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #05183B;
+            text-align: left;
+        }
+
+
+.sheader{
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            color: rgb(251, 251, 251);
+            font-size: 30px;
+            background-color:#05183B;
+            
+            
+}
+.menu {
+    width: 28px;
+    height: 5px;
+    background-color: rgb(241, 236, 236);
+    margin: 6px 0;
+
+}
+.menu:hover{
+      background-color: aliceblue;
+      color: #eff1f1;
+}
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+  }
+
+  .vertical-menu a {
+    background-color: rgb(16, 2, 80); /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  vertical-menu a:hover {
+    background-color: rgb(3, 12, 88); /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
